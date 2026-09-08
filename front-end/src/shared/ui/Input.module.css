@@ -1,0 +1,100 @@
+@import '../../styles/variables.css';
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--texto-primario);
+}
+
+.inputWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 2px solid var(--bordas-cor);
+  border-radius: var(--radius-sm);
+  background-color: white;
+  transition: all var(--transicao-rapida);
+}
+
+.inputWrapper:focus-within {
+  border-color: var(--bordas-foco);
+  box-shadow: 0 0 0 4px rgba(49, 130, 206, 0.12);
+}
+
+.inputWrapper.error {
+  border-color: var(--perigo);
+}
+
+.inputWrapper.error:focus-within {
+  border-color: var(--perigo);
+  box-shadow: 0 0 0 4px rgba(229, 62, 62, 0.12);
+}
+
+.input {
+  width: 100%;
+  padding: 12px 14px;
+  border: none;
+  background: transparent;
+  font-size: 15px;
+  color: var(--texto-primario);
+  outline: none;
+  font-family: var(--fonte-principal);
+}
+
+.input:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.input::placeholder {
+  color: var(--texto-secundario);
+}
+
+.iconLeft {
+  padding-left: 12px;
+  color: var(--texto-secundario);
+  display: flex;
+  align-items: center;
+}
+
+.iconRight {
+  padding-right: 12px;
+  color: var(--texto-secundario);
+  display: flex;
+  align-items: center;
+}
+
+.togglePassword {
+  position: absolute;
+  right: 12px;
+  background: none;
+  border: none;
+  color: var(--texto-secundario);
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  transition: color var(--transicao-rapida);
+  border-radius: var(--radius-sm);
+}
+
+.togglePassword:hover {
+  color: var(--texto-primario);
+  background: var(--bg-primario);
+}
+
+.errorMessage {
+  color: var(--perigo);
+  font-size: 13px;
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}

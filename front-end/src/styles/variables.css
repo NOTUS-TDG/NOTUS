@@ -1,0 +1,44 @@
+:root {
+  /* Cores Principais */
+  --cor-primaria: #1a365d;
+  --hover-primario: #122844;
+  --cor-secundario: #2b6cb0;
+  --hover-secundario: #1c4ed8;
+  --foco-cor: #3182ce;
+
+  /* Superfícies e Textos */
+  --bg-primario: #f7fafc;
+  --bg-card: #ffffff;
+  --texto-primario: #2d3748;
+  --texto-secundario: #718096;
+  --bordas-cor: #e2e8f0;
+  --bordas-foco: #3182ce;
+
+  /* Feedback */
+  --sucesso: #38a169;
+  --bg-sucesso: #f0fff4;
+  --borda-sucesso: #c6f6d5;
+  --alerta: #d69e2e;
+  --bg-alerta: #fff5f5;
+  --borda-alerta: #fefcbf;
+  --perigo: #e53e3e;
+  --bg-perigo: #fff5f5;
+  --borda-perigo: #fed7d7;
+
+  /* Tipografia */
+  --fonte-principal: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, sans-serif;
+  --line-height-base: 1.5;
+
+  /* Bordas e Sombras */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --shadown-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --shadown-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadown-lg: 0 10px 30px rgba(0, 0, 0, 0.1);
+
+  /* Transições */
+  --transicao-rapida: 0.15s ease-in-out;
+  --transicao-normal: 0.25s ease-in-out;
+}

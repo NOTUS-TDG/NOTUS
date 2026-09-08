@@ -1,0 +1,136 @@
+@import './variables.css';
+
+/* Flexbox utilities */
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.gap-1 {
+  gap: 4px;
+}
+
+.gap-2 {
+  gap: 8px;
+}
+
+.gap-3 {
+  gap: 16px;
+}
+
+.gap-4 {
+  gap: 24px;
+}
+
+/* Margin utilities */
+.m-0 {
+  margin: 0;
+}
+
+.mt-1 {
+  margin-top: 4px;
+}
+
+.mt-2 {
+  margin-top: 8px;
+}
+
+.mt-3 {
+  margin-top: 16px;
+}
+
+.mt-4 {
+  margin-top: 24px;
+}
+
+/* Padding utilities */
+.p-0 {
+  padding: 0;
+}
+
+.p-1 {
+  padding: 4px;
+}
+
+.p-2 {
+  padding: 8px;
+}
+
+.p-3 {
+  padding: 16px;
+}
+
+.p-4 {
+  padding: 24px;
+}
+
+/* Text utilities */
+.text-center {
+  text-align: center;
+}
+
+.text-sm {
+  font-size: 13px;
+}
+
+.text-base {
+  font-size: 15px;
+}
+
+.text-lg {
+  font-size: 17px;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-secondary {
+  color: var(--texto-secundario);
+}
+
+.text-primary {
+  color: var(--cor-primaria);
+}
+
+/* Width utilities */
+.w-full {
+  width: 100%;
+}
+
+.w-half {
+  width: 50%;
+}
+
+/* Display utilities */
+.hidden {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
